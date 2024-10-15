@@ -53,9 +53,33 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="@color/purple_200"
-        app:layout_constraintTop_toBottomOf="@id/view2"
-        app:layout_constraintLeft_toRightOf="@id/view3"
+        app:layout_constraintBottom_toTopOf="@id/view2"
+        app:layout_constraintRight_toLeftOf="@id/view3"
         android:id="@+id/view6"/>
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/purple_200"
+        app:layout_constraintTop_toBottomOf="@id/view4"
+        app:layout_constraintRight_toLeftOf="@id/view3"
+        android:id="@+id/view7"/>
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/purple_200"
+        app:layout_constraintTop_toBottomOf="@id/view4"
+        app:layout_constraintRight_toLeftOf="@id/view4"
+        android:id="@+id/view8"/>
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/purple_200"
+        app:layout_constraintTop_toBottomOf="@id/view5"
+        app:layout_constraintLeft_toRightOf="@id/view5"
+        android:id="@+id/view9"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
